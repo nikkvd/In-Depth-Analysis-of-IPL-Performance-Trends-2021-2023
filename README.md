@@ -15,3 +15,12 @@ The primary objective of this project is to leverage historical IPL data to unco
 - Analyzing season-wise and player-specific trends, such as boundary percentages and dot ball effectiveness.
 
 - Providing accurate, data-driven answers to questions that resonate with the IPL audience.
+
+## Problem Statement
+The IPL generates a vast amount of statistical data each season, but extracting meaningful insights from this data requires structured analysis. Fans, analysts, and teams often seek answers to specific questions, such as:
+
+- Who are the most consistent players across multiple seasons?
+- What team strategies yield the highest success rates?
+- How do individual performances vary under different conditions?
+Without a systematic approach, answering such questions and presenting insights in an engaging format is challenging.
+This project aims to solve this by using SQL to process raw data and generate concise, insightful results tailored to the interests of IPL stakeholders.
