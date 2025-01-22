@@ -95,6 +95,7 @@ Column Description for fact_bowling_summary:
 - noBalls: The number of no balls bowled.
 
 
+[ER Diagram]
 
 
 *******************************************
