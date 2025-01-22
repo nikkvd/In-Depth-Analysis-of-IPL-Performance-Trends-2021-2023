@@ -100,3 +100,13 @@ Column Description for fact_bowling_summary:
 
 
 *******************************************
+
+## Database Creation and Upload Dataset
+```sql
+create database IPL;
+use IPL;
+select * from dim_match_summary;
+select * from dim_players;
+select * from fact_bating_summary;
+select * from fact_bowling_summary;
+```
