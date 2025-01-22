@@ -124,7 +124,7 @@ order by total_runs desc)temp)temp2
 where rnk<=10;
 ```
 
-<b>Objective:<b> Identify the most consistent and high-scoring batsmen over the last three IPL seasons to showcase their dominance and reliability for fans and analysts.
+**Objective:** Identify the most consistent and high-scoring batsmen over the last three IPL seasons to showcase their dominance and reliability for fans and analysts.
 ## 2. Top 10 batsmen based on past 3 years batting average. (min 60 balls faced)
 ```sql
 with total as
@@ -150,6 +150,7 @@ on b.batsmanName = t.batsmanName)temp)temp2
 where rnk<=10;
 ```
 
+**Objective:** Highlight batsmen who maintain consistency with a solid average, ensuring a balance between runs scored and frequency of dismissals, while filtering out outliers with insufficient data.
 ## 3. Top 10 batsmen based on past 3 years strike rate (min 60 balls faced)
 ```sql
 with total as 
@@ -175,6 +176,7 @@ on b.batsmanName = t.batsmanName)temp)temp2
 where rnk<=10;
 ```
 
+**Objective:** Find batsmen who have consistently scored runs at a rapid pace, providing insights into impactful players for situations requiring high run rates.
 ## 4. Top 10 bowlers based on past 3 years total wickets taken.
 ```sql
 select * from 
@@ -187,6 +189,7 @@ group by bowlerName)temp)temp2
 where rnk<=10;
 ```
 
+**Objective:** Showcase bowlers who have been the most effective in taking wickets and disrupting batting lineups, helping analysts focus on match-winning bowlers.
 ## 5. Top 10 bowlers based on past 3 years economy rate. (min 60 balls bowled)
 ```sql
 with total as 
@@ -212,6 +215,7 @@ on b.bowlerName = t.bowlerName)temp)temp2
 where rnk<=10;
 ```
 
+**Objective:** Identify bowlers who consistently maintain tight control over runs, emphasizing their ability to limit opposition scoring rates in crucial moments.
 ## 6. Top 5 batsmen based on past 3 years boundary percentage (fours and sixes).
 ```sql
 with players as
@@ -235,6 +239,7 @@ order by percent desc)temp)temp1
 where rnk<=5;
 ```
 
+**Objective:** Highlight the most aggressive and entertaining batsmen who rely on boundaries to make a significant impact, appealing to fans who enjoy power-hitting.
 ## 7. Top 5 bowlers based on past 3 years dot ball percentage.
 ```sql
 with players as
@@ -257,6 +262,7 @@ from players as p join total as t)temp)temp1
 where rnk<=5;
 ```
 
+**Objective:** Identify bowlers who excel in building pressure by delivering dot balls, a crucial factor in restricting runs and forcing mistakes from batsmen.
 ## 8. Top 4 teams based on past 3 years winning percentage.
 ```sql
 with team_wise as
@@ -277,6 +283,7 @@ from team_wise as tw join total as t)temp1)temp2
 where rnk<=4;
 ```
 
+**Objective:** Determine the most successful teams in terms of overall performance, helping fans and analysts gauge team consistency and dominance over recent seasons.
 ## 9.Top 2 teams with the highest number of wins achieved by chasing targets over the past 3 years.
 ```sql
 select * from
@@ -288,6 +295,7 @@ group by winner)temp)temp2
 where rnk<=2;
 ```
 
+**Objective:** Identify teams that excel under pressure while chasing targets, offering insights into their resilience and adaptability in different match scenarios.
 ## 10. Which season had the highest total number of runs scored by a single team?
 ```sql
 select teamInnings,Year,runs from
@@ -299,3 +307,5 @@ group by fb.match_id,teamInnings,Year
 order by runs desc)temp)temp1
 where rnk=1;
 ```
+
+**Objective:** Highlight the most explosive batting performances by a team in a single season, showcasing record-breaking achievements and entertaining cricket for fans.
