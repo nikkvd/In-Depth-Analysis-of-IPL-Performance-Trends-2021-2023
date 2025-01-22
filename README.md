@@ -22,5 +22,6 @@ The IPL generates a vast amount of statistical data each season, but extracting 
 - Who are the most consistent players across multiple seasons?
 - What team strategies yield the highest success rates?
 - How do individual performances vary under different conditions?
+
 Without a systematic approach, answering such questions and presenting insights in an engaging format is challenging.
 This project aims to solve this by using SQL to process raw data and generate concise, insightful results tailored to the interests of IPL stakeholders.
