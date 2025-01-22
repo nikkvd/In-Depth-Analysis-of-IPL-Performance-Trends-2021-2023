@@ -8,10 +8,10 @@ This project focuses on analyzing Indian Premier League (IPL) data from the last
 ## Objective
 The primary objective of this project is to leverage historical IPL data to uncover key insights and patterns that enhance fan engagement and assist analysts and teams in understanding performance trends. Specific goals include:
 
--- Identifying top-performing players in batting and bowling based on runs, strike rates, wickets, and economy.
+- Identifying top-performing players in batting and bowling based on runs, strike rates, wickets, and economy.
 
--- Highlighting team strategies and success rates, including winning percentages and chasing performance.
+- Highlighting team strategies and success rates, including winning percentages and chasing performance.
 
--- Analyzing season-wise and player-specific trends, such as boundary percentages and dot ball effectiveness.
+- Analyzing season-wise and player-specific trends, such as boundary percentages and dot ball effectiveness.
 
--- Providing accurate, data-driven answers to questions that resonate with the IPL audience.
+- Providing accurate, data-driven answers to questions that resonate with the IPL audience.
