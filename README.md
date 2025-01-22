@@ -60,17 +60,17 @@ Column Description for dim_players:
 
 Column Description for fact_batting_summary:
 
-match_id: Links to the dim_match_summary for match details, prefixed with 'T'.
-match: Description of the match in "Team1 Vs Team2" format.
-teamInnings: The team that is batting in the specified innings.
-battingPos: The batting order position of the player.
-batsmanName: The name of the batsman.
-out/not_out: Indicates whether the batsman was out or not out.
-runs: The number of runs scored by the batsman.
-balls: The number of balls faced by the batsman.
-4s: The number of boundaries (4 runs) hit by the batsman.
-6s: The number of sixes hit by the batsman.
-SR (Strike Rate): The strike rate of the batsman during the innings.
+- match_id: Links to the dim_match_summary for match details, prefixed with 'T'.
+- match: Description of the match in "Team1 Vs Team2" format.
+- teamInnings: The team that is batting in the specified innings.
+- battingPos: The batting order position of the player.
+- batsmanName: The name of the batsman.
+- out/not_out: Indicates whether the batsman was out or not out.
+- runs: The number of runs scored by the batsman.
+- balls: The number of balls faced by the batsman.
+- 4s: The number of boundaries (4 runs) hit by the batsman.
+- 6s: The number of sixes hit by the batsman.
+- SR (Strike Rate): The strike rate of the batsman during the innings.
 
 
 *******************************************
@@ -79,20 +79,20 @@ SR (Strike Rate): The strike rate of the batsman during the innings.
 
 Column Description for fact_bowling_summary:
 
-match_id: Links to the dim_match_summary for match details, prefixed with 'T'.
-match: Description of the match in "Team1 Vs Team2" format.
-bowlingTeam: The team that is bowling in the specified innings.
-bowlerName: The name of the bowler.
-overs: The number of overs bowled by the player.
-maiden: The number of maiden overs bowled.
-runs: The number of runs conceded by the bowler.
-wickets: The number of wickets taken by the bowler.
-economy: The bowler's economy rate.
-0s: The number of dot balls bowled.
-4s: The number of boundaries conceded.
-6s: The number of sixes conceded.
-wides: The number of wide balls bowled.
-noBalls: The number of no balls bowled.
+- match_id: Links to the dim_match_summary for match details, prefixed with 'T'.
+- match: Description of the match in "Team1 Vs Team2" format.
+- bowlingTeam: The team that is bowling in the specified innings.
+- bowlerName: The name of the bowler.
+- overs: The number of overs bowled by the player.
+- maiden: The number of maiden overs bowled.
+- runs: The number of runs conceded by the bowler.
+- wickets: The number of wickets taken by the bowler.
+- economy: The bowler's economy rate.
+- 0s: The number of dot balls bowled.
+- 4s: The number of boundaries conceded.
+- 6s: The number of sixes conceded.
+- wides: The number of wide balls bowled.
+- noBalls: The number of no balls bowled.
 
 
 
