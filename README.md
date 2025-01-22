@@ -95,7 +95,7 @@ Column Description for fact_bowling_summary:
 - noBalls: The number of no balls bowled.
 
 
-[ER Diagram]
+![ER Diagram](https://github.com/nikkvd/IPL-2024/blob/main/Images/ER%20Diagram.png?raw=true)
 
 
 *******************************************
